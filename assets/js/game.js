@@ -56,7 +56,17 @@ var endGame = function() {
 
 // fight function (now with parameter for enemy's object holding name, health, and attack values)
 var fight = function(enemy) {
+
+  //keep track of who goes first
+  var isPlayerTurn = true;
+
+    // randomly change turn order
+    if (Math.random() > 0.5) {
+      isPlayerTurn = false;
+    }
+
   while (playerInfo.health > 0 && enemy.health > 0) {
+    if (isPlayerTurn) {
     var fightOrSkip = function() {
       // ask player if they'd like to fight or skip using fightOrSkip function
       var promptFight = window.prompt('Would you like FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
@@ -146,6 +156,9 @@ var fight = function(enemy) {
       window.alert(playerInfo.name + ' still has ' + playerInfo.health + ' health left.');
     }
   }
+
+
+
 };
 
 // go to shop between battles function
