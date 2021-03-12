@@ -8,7 +8,7 @@
 * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
 
 ## **_Description of the project_**
-This project is a combat simulator game called "Robot Gladiators". The players fights bot robots through a series of fights—gaining cash, attack power, and repairs along the way with a shop functionality. The robot that survives with the most cash wins and remembered in the browser's storage system as high score.
+This project is a combat simulator game called "Robot Gladiators". The player fights bot robots through a series of fights—gaining cash, attack power, and repairs along the way with a shop functionality. The robot that survives with the most cash wins and remembered in the browser's storage system as high score.
 
 ## **_Technologies used_**
 Project is created using:
