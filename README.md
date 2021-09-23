@@ -25,7 +25,7 @@ Project is created using:
 ![robot3](https://user-images.githubusercontent.com/78329298/110900605-de970f80-82b7-11eb-9e6d-fe0cddfb9c36.png)
 
 ## **_Installation_**
-Here are some guidelines for installing the project on your local machine in order to be able to try it:
+Here are some guidelines for installing the project on your local machine:
 
 1. Clone or download the repository to your own local machine.
 
